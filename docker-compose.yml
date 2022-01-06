@@ -1,0 +1,7 @@
+version: '2.2'
+services:
+    my-apache2:
+        build: .
+        container_name: my-apache
+        ports:
+          - '80:80'
